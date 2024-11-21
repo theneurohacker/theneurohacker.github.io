@@ -9,6 +9,9 @@ tags: ["writeup, osint"]
 ![exiftool](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*SekVhAaN0ZLISUlsuo4ogw.jpeg)
 
 This TryHackMe room demonstrates how easy it is to extract identifiable information from a single photo, showcasing the power of Open Source Intelligence.
+
+-----
+
 ## 1. What is this user’s avatar of?
 
 For the first step, I used ExifTool to extract the metadata from the image file attached to the room. By examining this metadata, I found a username in the copyright field: OWoodflint.

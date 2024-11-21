@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>//localhost:57360/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:57360/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>//localhost:57360/about/about/</link>
+      <link>//localhost:1313/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:57360/about/about/</guid>
+      <guid>//localhost:1313/about/about/</guid>
       <description>&lt;hr&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/originals/35/58/0d/35580d64b9b883fd0e0678595fc2aefd.gif&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hi there! I’m a cybersecurity major interested in OSINT, Ethical Hacking, and Security Awareness. I aim to spread awareness about cyber threats and scams that could impact individuals and organizations.&lt;/p&gt;&#xA;&lt;p&gt;In my spare time, I am dedicated to enhancing my current skillset and knowledge by participating in CTF platforms and competitions and completing online courses. I also enjoy building computers and coding in Python.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World!</title>
-      <link>//localhost:57360/posts/helloworld/</link>
+      <link>//localhost:1313/posts/helloworld/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:57360/posts/helloworld/</guid>
+      <guid>//localhost:1313/posts/helloworld/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/originals/d4/81/f3/d481f3c72e283309071f79e01b05c06d.gif&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hello World!&lt;/p&gt;</description>
     </item>
     <item>
       <title>OhSINT TryhackMe Writeup</title>
-      <link>//localhost:57360/writeups/ohsintwriteup/</link>
+      <link>//localhost:1313/writeups/ohsintwriteup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:57360/writeups/ohsintwriteup/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/v2/resize:fit:1400/format:webp/1*SekVhAaN0ZLISUlsuo4ogw.jpeg&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This TryHackMe room demonstrates how easy it is to extract identifiable information from a single photo, showcasing the power of Open Source Intelligence.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-what-is-this-users-avatar-of&#34;&gt;1. What is this user’s avatar of?&lt;/h2&gt;&#xA;&lt;p&gt;For the first step, I used ExifTool to extract the metadata from the image file attached to the room. By examining this metadata, I found a username in the copyright field: OWoodflint.&#xA;&lt;img src=&#34;https://miro.medium.com/v2/resize:fit:720/format:webp/1*VPhg69nhJpVIZRQ3SP36VQ.png&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I then searched Google for this username and discovered several platforms where this user has an account. The first result shows the user’s avatar.&#xA;&lt;img src=&#34;https://miro.medium.com/v2/resize:fit:720/format:webp/1*VPhg69nhJpVIZRQ3SP36VQ.png&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;</description>
+      <guid>//localhost:1313/writeups/ohsintwriteup/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/v2/resize:fit:1400/format:webp/1*SekVhAaN0ZLISUlsuo4ogw.jpeg&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This TryHackMe room demonstrates how easy it is to extract identifiable information from a single photo, showcasing the power of Open Source Intelligence.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-what-is-this-users-avatar-of&#34;&gt;1. What is this user’s avatar of?&lt;/h2&gt;&#xA;&lt;p&gt;For the first step, I used ExifTool to extract the metadata from the image file attached to the room. By examining this metadata, I found a username in the copyright field: OWoodflint.&#xA;&lt;img src=&#34;https://miro.medium.com/v2/resize:fit:720/format:webp/1*VPhg69nhJpVIZRQ3SP36VQ.png&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I then searched Google for this username and discovered several platforms where this user has an account. The first result shows the user’s avatar.&#xA;&lt;img src=&#34;https://miro.medium.com/v2/resize:fit:720/format:webp/1*VPhg69nhJpVIZRQ3SP36VQ.png&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

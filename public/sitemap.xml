@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:57360/</loc>
+    <loc>//localhost:1313/</loc>
   </url><url>
-    <loc>//localhost:57360/about/</loc>
+    <loc>//localhost:1313/about/</loc>
   </url><url>
-    <loc>//localhost:57360/about/about/</loc>
+    <loc>//localhost:1313/about/about/</loc>
   </url><url>
-    <loc>//localhost:57360/posts/helloworld/</loc>
+    <loc>//localhost:1313/posts/helloworld/</loc>
   </url><url>
-    <loc>//localhost:57360/writeups/ohsintwriteup/</loc>
+    <loc>//localhost:1313/writeups/ohsintwriteup/</loc>
   </url><url>
-    <loc>//localhost:57360/posts/</loc>
+    <loc>//localhost:1313/posts/</loc>
   </url><url>
-    <loc>//localhost:57360/series/</loc>
+    <loc>//localhost:1313/series/</loc>
   </url><url>
-    <loc>//localhost:57360/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url><url>
-    <loc>//localhost:57360/tags/writeup-osint/</loc>
+    <loc>//localhost:1313/tags/writeup-osint/</loc>
   </url><url>
-    <loc>//localhost:57360/writeups/</loc>
+    <loc>//localhost:1313/writeups/</loc>
   </url>
 </urlset>
