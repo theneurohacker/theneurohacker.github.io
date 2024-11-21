@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on </title>
+    <link>//localhost:57360/about/</link>
+    <description>Recent content in About on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:57360/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>//localhost:57360/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:57360/about/about/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/originals/35/58/0d/35580d64b9b883fd0e0678595fc2aefd.gif&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hi there! I’m a cybersecurity major interested in OSINT, Ethical Hacking, and Security Awareness. I aim to spread awareness about cyber threats and scams that could impact individuals and organizations.&lt;/p&gt;&#xA;&lt;p&gt;In my spare time, I am dedicated to enhancing my current skillset and knowledge by participating in CTF platforms and competitions and completing online courses. I also enjoy building computers and coding in Python.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
