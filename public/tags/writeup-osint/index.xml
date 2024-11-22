@@ -7,12 +7,5 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="//localhost:1313/tags/writeup-osint/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>OhSINT TryhackMe Writeup</title>
-      <link>//localhost:1313/writeups/ohsintwriteup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/writeups/ohsintwriteup/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/v2/resize:fit:1400/format:webp/1*SekVhAaN0ZLISUlsuo4ogw.jpeg&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This TryHackMe room demonstrates how easy it is to extract identifiable information from a single photo, showcasing the power of Open Source Intelligence.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-what-is-this-users-avatar-of&#34;&gt;1. What is this user’s avatar of?&lt;/h2&gt;&#xA;&lt;p&gt;For the first step, I used ExifTool to extract the metadata from the image file attached to the room. By examining this metadata, I found a username in the copyright field: OWoodflint.&#xA;&lt;img src=&#34;https://miro.medium.com/v2/resize:fit:720/format:webp/1*VPhg69nhJpVIZRQ3SP36VQ.png&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I then searched Google for this username and discovered several platforms where this user has an account. The first result shows the user’s avatar.&#xA;&lt;img src=&#34;https://miro.medium.com/v2/resize:fit:720/format:webp/1*VPhg69nhJpVIZRQ3SP36VQ.png&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

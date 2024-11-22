@@ -3,7 +3,7 @@ title: "OhSINT TryhackMe Writeup"
 date: 2024-20-11
 draft: false
 hideToc: true
-tags: ["writeup, osint"]
+tags: ["writeup", "osint"]
 ---
 
 ![exiftool](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*SekVhAaN0ZLISUlsuo4ogw.jpeg)

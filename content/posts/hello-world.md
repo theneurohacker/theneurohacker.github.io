@@ -8,3 +8,4 @@ hideToc: true
 
 Hello World!
 
+I created this site to share my cybersecurity learning journey, as well as my many tech creations! 

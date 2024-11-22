@@ -15,11 +15,18 @@
       <description>&lt;hr&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/originals/35/58/0d/35580d64b9b883fd0e0678595fc2aefd.gif&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hi there! I’m a cybersecurity major interested in OSINT, Ethical Hacking, and Security Awareness. I aim to spread awareness about cyber threats and scams that could impact individuals and organizations.&lt;/p&gt;&#xA;&lt;p&gt;In my spare time, I am dedicated to enhancing my current skillset and knowledge by participating in CTF platforms and competitions and completing online courses. I also enjoy building computers and coding in Python.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Hello World!</title>
-      <link>//localhost:1313/posts/helloworld/</link>
+      <title>Back to Arduino</title>
+      <link>//localhost:1313/posts/arduino-kit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/helloworld/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/originals/d4/81/f3/d481f3c72e283309071f79e01b05c06d.gif&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hello World!&lt;/p&gt;</description>
+      <guid>//localhost:1313/posts/arduino-kit/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://64.media.tumblr.com/3a03cf932cc7536e8c75ae8c80743e59/9182c0e0621267a3-10/s1280x1920/0d2583edb0fd2bbe7e6c20d1d13a027a8265ad2e.jpg&#34; alt=&#34;arduino&#34;&gt;&#xA;My new mega arduino kit arrived! It&amp;rsquo;s been a while since I&amp;rsquo;ve built with the arduino, so I&amp;rsquo;m excited to get back into it!&lt;/p&gt;&#xA;&lt;p&gt;This is the first creation I made, which involved lighting an LED.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World!</title>
+      <link>//localhost:1313/posts/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/originals/d4/81/f3/d481f3c72e283309071f79e01b05c06d.gif&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hello World!&lt;/p&gt;&#xA;&lt;p&gt;I created this site to share my cybersecurity learning journey, as well as my many tech creations!&lt;/p&gt;</description>
     </item>
     <item>
       <title>OhSINT TryhackMe Writeup</title>
