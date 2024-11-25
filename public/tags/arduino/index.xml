@@ -8,11 +8,11 @@
     <language>en-us</language>
     <atom:link href="//localhost:1313/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Arduino Kit</title>
+      <title>Back to Arduino</title>
       <link>//localhost:1313/posts/arduino-kit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/posts/arduino-kit/</guid>
-      <description>&lt;p&gt;test&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://64.media.tumblr.com/3a03cf932cc7536e8c75ae8c80743e59/9182c0e0621267a3-10/s1280x1920/0d2583edb0fd2bbe7e6c20d1d13a027a8265ad2e.jpg&#34; alt=&#34;arduino&#34;&gt;&#xA;My new mega arduino kit arrived! It&amp;rsquo;s been a while since I&amp;rsquo;ve built with the arduino, so I&amp;rsquo;m excited to get back into it!&lt;/p&gt;&#xA;&lt;p&gt;This is the first creation I made, which involved lighting an LED.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

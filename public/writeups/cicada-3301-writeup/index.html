@@ -47,20 +47,20 @@
 
 
 
-  
-  
-  
 
 
+  
+  
+  
 
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name">NeuroHacker - Posts</title>
-<meta property="og:title" content=NeuroHacker&#32;-&#32;Posts />
-<meta name="twitter:title" content=NeuroHacker&#32;-&#32;Posts />
-<meta itemprop="name" content=NeuroHacker&#32;-&#32;Posts />
-<meta name="application-name" content=NeuroHacker&#32;-&#32;Posts />
+<title itemprop="name">NeuroHacker - Cicada-3301 TryHackMe Writeup</title>
+<meta property="og:title" content=NeuroHacker&#32;-&#32;Cicada-3301&#32;TryHackMe&#32;Writeup />
+<meta name="twitter:title" content=NeuroHacker&#32;-&#32;Cicada-3301&#32;TryHackMe&#32;Writeup />
+<meta itemprop="name" content=NeuroHacker&#32;-&#32;Cicada-3301&#32;TryHackMe&#32;Writeup />
+<meta name="application-name" content=NeuroHacker&#32;-&#32;Cicada-3301&#32;TryHackMe&#32;Writeup />
 <meta property="og:site_name" content="" />
 
 
@@ -70,18 +70,17 @@
 <meta name="twitter:description" content="" />
 
 
-<base href="//localhost:1313/posts/" />
-<link rel="canonical" href="//localhost:1313/posts/" itemprop="url" />
-<meta name="url" content="//localhost:1313/posts/" />
-<meta name="twitter:url" content="//localhost:1313/posts/" />
-<meta property="og:url" content="//localhost:1313/posts/" />
+<base href="//localhost:1313/writeups/cicada-3301-writeup/" />
+<link rel="canonical" href="//localhost:1313/writeups/cicada-3301-writeup/" itemprop="url" />
+<meta name="url" content="//localhost:1313/writeups/cicada-3301-writeup/" />
+<meta name="twitter:url" content="//localhost:1313/writeups/cicada-3301-writeup/" />
+<meta property="og:url" content="//localhost:1313/writeups/cicada-3301-writeup/" />
 
 
 <meta property="og:updated_time" content="0001-01-01T00:00:00Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='//localhost:1313/sitemap.xml' />
-<link href="//localhost:1313/posts/index.xml" rel="alternate" type="application/rss+xml" title="" />
 
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
@@ -94,25 +93,6 @@
 <meta name="apple-mobile-web-app-title" content="" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-
-
-
-
-
-
-
-  <link rel="first" href="/posts/" />
-  <link rel="last" href="/posts/" />
-  
-  
-
-
-<meta property="og:type" content="article" />
-<meta property="article:publisher" content="" />
-<meta property="og:article:published_time" content="0001-01-01T00:00:00Z" />
-<meta property="article:published_time" content="0001-01-01T00:00:00Z" />
-
-
 
 
 
@@ -397,34 +377,135 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </aside>
 
             <main class="content container">
-                <h1 class="title">Posts</h1>
-<ul class="entries">
-    
-        <h3 style="text-align: center;">0001</h3>
-        
-            <li>
-                <span class="title">
-                    <a href="/posts/hello-world/">Hello World!</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">January 1, 1</time>
-                </span>
-            </li>
-        
-            <li>
-                <span class="title">
-                    <a href="/posts/arduino-kit/">Back to Arduino</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">January 1, 1</time>
-                </span>
-            </li>
-        
-    
-</ul>
+                <div class="post">
+  <div class="info">
+  <h1 class="post-title">
+    <a href="//localhost:1313/writeups/cicada-3301-writeup/">Cicada-3301 TryHackMe Writeup</a>
+  </h1>
 
+  <div class="headline">
+    <div>
+      
+      
+      <span> - </span>
+      <span class="reading-time">
+        
+          
+        
+
+        <span>3 mins read</span>
+      </span>
+    </div>
+
+    
+    <ul class="tags">
+      
+      <li class="tag-writeup">
+        <a href="//localhost:1313/tags/writeup">writeup</a>
+      </li>
+      
+      <li class="tag-osint">
+        <a href="//localhost:1313/tags/osint">osint</a>
+      </li>
+      
+      <li class="tag-steganography">
+        <a href="//localhost:1313/tags/steganography">steganography</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+
+  
+  
+
+  
+</div>
+
+  <p><img src="https://miro.medium.com/v2/resize:fit:600/format:webp/0*ZEeS6uUHrkdcu_bc.jpeg" alt="exiftool"></p>
+<p>In this room, we uncover hidden messages through steganographic methods and research.</p>
+<hr>
+<h2 id="task-2-analyze-theaudio">Task 2: Analyze the Audio</h2>
+<h3 id="question-what-is-the-link-inside-of-the-audio">Question: What is the link inside of the audio?</h3>
+<p>To solve this task, I used Sonic Visualizer to analyze the attached WAV file for hidden messages.
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*CjpKMpxru5Ce1zOpgyOeqg.png" alt="exiftool">
+I added a new spectrogram layer and zoomed in to reveal a QR code. 
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*gpKAKt4PT-JzwfkDoc-4-A.png" alt="exiftool">
+Scanning this QR code reveals a Pastebin link which is the answer for this task. Clicking on this link opens a text document with a passphrase and key. This information will be needed for the next task.
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*HjtkFiKi6qoO8roh2XSOPw.png" alt="exiftool"></p>
+<h3 id="answer-httpspastebincomwphpq0aa">Answer: <a href="https://pastebin.com/wphPq0Aa" target="_blank">https://pastebin.com/wphPq0Aa</a></h3>
+<h3 id="task-3-decode-the-passphrase">Task 3: Decode the Passphrase</h3>
+<p>Find and Decrypt the passphrase and key
+To decrypt the passphrase and key, I needed to identify the cryptographic methods used. I used a online hash identifier tool to reveal that both strings were base64. CyberChef can be used to decode them.
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*0A9SytAG1_x6fELcNV2TKw.png" alt="exiftool">
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*OIFKZOrgBOEvcJci83GMiA.png" alt="exiftool"></p>
+<h3 id="question-what-is-the-decrypted-passphrase">Question: What is the decrypted passphrase?</h3>
+<h3 id="answer-hm5r_4_p455mhp453">Answer: Hm5R_4_P455mhp453!</h3>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*d2h7b5Ueo7pB6rsQjM8GuQ.png" alt="exiftool"></p>
+<h3 id="question-what-is-the-decrypted-key">Question: What is the decrypted key?</h3>
+<h3 id="answer-cicada">Answer: Cicada</h3>
+<h3 id="question-what-is-the-final-passphrase">Question: What is the final passphrase?</h3>
+<p>The hint in the room indicates that a French Diplomat Cipher is used, also known as the Vigenère cipher. CyberChef can be used to decode the Vigenère cipher.
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Hai2S2UPbNl4z52PO8xDrw.png" alt="exiftool">
+However, this did not seem correct so I reencoded the passphrase to reveal the final passphrase.
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*1tKYUvlrvjoh_NB4GRoBog.png" alt="exiftool"></p>
+<h3 id="answer-ju5t_4_p455phr453">Answer: Ju5T_4_P455phr453!</h3>
+<h2 id="task-4-gathermetadata">Task 4: Gather Metadata</h2>
+<h3 id="question-what-link-is-given">Question: What link is given?</h3>
+<p>Steghide can be used to extract the hidden files with the passphrase found from the previous task. This resulted in an invitation.txt file, which contained an Imgur link. I downloaded the image from the link so it can be used in the next task.
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Af5OC6x_ISNHeazQAMjA6w.png" alt="exiftool"></p>
+<h3 id="answer-httpsimgurcomac0zszga">Answer: <a href="https://imgur.com/a/c0ZSZga" target="_blank">https://imgur.com/a/c0ZSZga</a></h3>
+<p><img src="https://miro.medium.com/v2/resize:fit:1230/format:webp/1*h-KkdHtO1iE4DCILrv_N_w.png" alt="exiftool"></p>
+<h2 id="task-5-find-hiddenfiles">Task 5: Find Hidden Files</h2>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*LzWgIWtWjLLsAjADZXR4xw.png" alt="exiftool"></p>
+<h3 id="question-what-tool-did-you-use-to-find-the-hidden-file">Question: What tool did you use to find the hidden file?</h3>
+<p>To answer this question, I needed to identify the proper steganographic method. Initially I tried different methods that I was familiar with but had no success. The hint revealed that the method used was one originally relied upon in the real Cicada 3301 challenge. I searched up Cicada steganography tools to discover that Outguess was the method used. 
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7YKlPTHiqPct8W0ZlQJkJQ.png" alt="exiftool">
+(If outguess is not on your system, you can used &lsquo;apt install outguess&rsquo; to install it.)
+I ran this command to extract the hidden information contain within the jpg file
+<img src="https://miro.medium.com/v2/resize:fit:1122/format:webp/1*_PtEzcn17sTaSfsy2HTFQg.png" alt="exiftool"></p>
+<h3 id="answer-outguess">Answer: Outguess</h3>
+<h2 id="task-6-bookcipher">Task 6: Book Cipher</h2>
+<p>The output file from Outguess revealed this secret message. 
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*4bpoOMGOM6RM3eAUKTK7bg.png" alt="exiftool"></p>
+<h3 id="question-what-is-the-hash-type">Question: What is the Hash type?</h3>
+<p>To crack the hash I first needed to identify its type. I used the same hash indentifier tool from earlier to do this (<a href="https://hashes.com/en/tools/hash_identifier" target="_blank">https://hashes.com/en/tools/hash_identifier</a>)
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*QCDXndT7EaxNw3oM6h6HRA.png" alt="exiftool"></p>
+<h3 id="answer-sha512">Answer: SHA512</h3>
+<h3 id="question-what-is-the-link-from-the-hash">Question: What is the Link from the hash?</h3>
+<p>This hash cannot be cracked with a offline tool, such as hashcat, and instead needed to be cracked with an online tool. I used (<a href="https://md5hashing.net/" target="_blank">https://md5hashing.net/</a>) to crack the hash and uncover the link for the answer.
+<img src="https://miro.medium.com/v2/resize:fit:1096/format:webp/1*qnEljm7fHBrT6L2d0hZ_NA.png" alt="exiftool"></p>
+<h3 id="answer-httpspastebincom6fnivlh5">Answer: <a href="https://pastebin.com/6FNiVLh5" target="_blank">https://pastebin.com/6FNiVLh5</a></h3>
+<p>Visiting this link reveals a long text file. This document is key to uncovering the link needed for the next question
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*jTwegAwx16aqOSiN8Y0x2A.png" alt="exiftool"></p>
+<h3 id="question-what-is-the-link">Question: What is the link?</h3>
+<p>To decode the document, I used the message contained within the output file from earlier. The instructions stated that positive integers mean move forward in the sentence and negative integers mean to go backwards. The codes seemed to follow the format: (I:line number: character position). *Spaces are not included 
+Following this format, I uncovered the link.
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*In6_JVMJzRLSsx8YnKfPdw.png" alt="exiftool"></p>
+<h3 id="answer-httpsbitly39pw2nh">Answer: <a href="https://bit.ly/39pw2NH" target="_blank">https://bit.ly/39pw2NH</a></h3>
+<h2 id="task-7-the-finalsong">Task 7: The Final Song</h2>
+<h3 id="question-what-is-the-song-linked">Question: What is the song linked?</h3>
+<p>I visited this link which led me to a SoundCloud page. The song title is the answer for the final task question. 
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*KqA-tnQ9_UUvSE6-GlBf5A.png" alt="exiftool"></p>
+<h3 id="answer-the-instar-emergence">Answer: The Instar Emergence</h3>
+
+  
+  <hr>
+<div class="footer">
+    
+	    
+            <a class="previous-post" href="//localhost:1313/writeups/ohsintwriteup/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>OhSINT TryhackMe Writeup</a>
+        
+	    
+    
+</div>
+
+  
+</div>
             </main>
             
+  
+
         </div>
     </body>
 </html>

@@ -220,6 +220,55 @@
                 
                         
                 
+                        
+                
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+                
+                
+                    <li class="heading">
+                        <a href="/writeups/">Writeups</a>
+                    </li>
+                    
+                        <li class="sub-heading">
+                            Recent
+                        </li>
+                        
+                            <li class="bullet">
+                                <a href="//localhost:1313/writeups/cicada-3301-writeup/">Cicada-3301 TryHackMe Writeup</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="//localhost:1313/writeups/ohsintwriteup/">OhSINT TryhackMe Writeup</a>
+                            </li>
+                        
+                    
+                
+            
+            
+                
+                
+            
+                
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
             
         
         
@@ -260,45 +309,6 @@
                 
                 
                         
-                
-                        
-                
-                        
-                
-            
-        
-        
-            
-
-            
-                
-                
-            
-                
-                
-            
-                
-                
-                    <li class="heading">
-                        <a href="/writeups/">Writeups</a>
-                    </li>
-                    
-                        <li class="sub-heading">
-                            Recent
-                        </li>
-                        
-                            <li class="bullet">
-                                <a href="//localhost:1313/writeups/ohsintwriteup/">OhSINT TryhackMe Writeup</a>
-                            </li>
-                        
-                    
-                
-            
-            
-                
-                
-            
-                
                 
                         
                 
@@ -409,6 +419,70 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
         <p><img src="https://64.media.tumblr.com/3a03cf932cc7536e8c75ae8c80743e59/9182c0e0621267a3-10/s1280x1920/0d2583edb0fd2bbe7e6c20d1d13a027a8265ad2e.jpg" alt="arduino">
 My new mega arduino kit arrived! It&rsquo;s been a while since I&rsquo;ve built with the arduino, so I&rsquo;m excited to get back into it!</p>
 <p>This is the first creation I made, which involved lighting an LED.</p>
+        
+        
+    </article>
+    <article class="post">
+        <div class="info">
+  <h1 class="post-title">
+    <a href="//localhost:1313/writeups/cicada-3301-writeup/">Cicada-3301 TryHackMe Writeup</a>
+  </h1>
+
+  <div class="headline">
+    <div>
+      
+      
+      <span> - </span>
+      <span class="reading-time">
+        
+          
+        
+
+        <span>3 mins read</span>
+      </span>
+    </div>
+
+    
+    <ul class="tags">
+      
+      <li class="tag-writeup">
+        <a href="//localhost:1313/tags/writeup">writeup</a>
+      </li>
+      
+      <li class="tag-osint">
+        <a href="//localhost:1313/tags/osint">osint</a>
+      </li>
+      
+      <li class="tag-steganography">
+        <a href="//localhost:1313/tags/steganography">steganography</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+
+  
+  
+
+  
+</div>
+
+        
+        <p><img src="https://miro.medium.com/v2/resize:fit:600/format:webp/0*ZEeS6uUHrkdcu_bc.jpeg" alt="exiftool"></p>
+<p>In this room, we uncover hidden messages through steganographic methods and research.</p>
+<hr>
+<h2 id="task-2-analyze-theaudio">Task 2: Analyze the Audio</h2>
+<h3 id="question-what-is-the-link-inside-of-the-audio">Question: What is the link inside of the audio?</h3>
+<p>To solve this task, I used Sonic Visualizer to analyze the attached WAV file for hidden messages.
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*CjpKMpxru5Ce1zOpgyOeqg.png" alt="exiftool">
+I added a new spectrogram layer and zoomed in to reveal a QR code. 
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*gpKAKt4PT-JzwfkDoc-4-A.png" alt="exiftool">
+Scanning this QR code reveals a Pastebin link which is the answer for this task. Clicking on this link opens a text document with a passphrase and key. This information will be needed for the next task.
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*HjtkFiKi6qoO8roh2XSOPw.png" alt="exiftool"></p>
+        
+        <div class="read-more-link">
+            <a href="/writeups/cicada-3301-writeup/">Read More…</a>
+        </div>
         
         
     </article>

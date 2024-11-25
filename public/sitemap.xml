@@ -8,19 +8,27 @@
   </url><url>
     <loc>//localhost:1313/about/about/</loc>
   </url><url>
-    <loc>//localhost:1313/posts/arduino/</loc>
+    <loc>//localhost:1313/tags/arduino/</loc>
   </url><url>
-    <loc>//localhost:1313/posts/helloworld/</loc>
+    <loc>//localhost:1313/posts/arduino-kit/</loc>
+  </url><url>
+    <loc>//localhost:1313/writeups/cicada-3301-writeup/</loc>
+  </url><url>
+    <loc>//localhost:1313/posts/hello-world/</loc>
   </url><url>
     <loc>//localhost:1313/writeups/ohsintwriteup/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/osint/</loc>
   </url><url>
     <loc>//localhost:1313/posts/</loc>
   </url><url>
     <loc>//localhost:1313/series/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/steganography/</loc>
+  </url><url>
     <loc>//localhost:1313/tags/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/writeup-osint/</loc>
+    <loc>//localhost:1313/tags/writeup/</loc>
   </url><url>
     <loc>//localhost:1313/writeups/</loc>
   </url>

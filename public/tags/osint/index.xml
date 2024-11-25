@@ -8,6 +8,13 @@
     <language>en-us</language>
     <atom:link href="//localhost:1313/tags/osint/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cicada: 3301 TryHackMe Writeup</title>
+      <link>//localhost:1313/writeups/cicada-3301-writeup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/writeups/cicada-3301-writeup/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/v2/resize:fit:1400/format:webp/1*SekVhAaN0ZLISUlsuo4ogw.jpeg&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this room, we uncover hidden messages through steganographic methods and research.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;task-2-analyze-theaudio&#34;&gt;Task 2: Analyze the Audio&lt;/h2&gt;&#xA;&lt;h3 id=&#34;question-what-is-the-link-inside-of-the-audio&#34;&gt;Question: What is the link inside of the audio?&lt;/h3&gt;&#xA;&lt;p&gt;To solve this task, I used Sonic Visualizer to analyze the attached WAV file for hidden messages.&#xA;I added a new spectrogram layer and zoomed in to reveal a QR code. &#xA;Scanning this QR code reveals a Pastebin link which is the answer for this task. Clicking on this link opens a text document with a passphrase and key. This information will be needed for the next task.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>OhSINT TryhackMe Writeup</title>
       <link>//localhost:1313/writeups/ohsintwriteup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
